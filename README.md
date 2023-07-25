@@ -1,52 +1,76 @@
-The BuddyBoss Verification Addon is a powerful extension for BuddyBoss, designed to provide verification features for user profiles on social networking sites built with the BuddyBoss platform. This addon allows site administrators to enable profile verification for specific user roles, ensuring authenticity and credibility within the community.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuddyBoss Verification Addon</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
 
-Features
-Profile Verification: Enable profile verification for selected user roles to display a verified badge on their profiles.
-Admin Control: Administrators can manually verify profiles or allow users to request verification.
-Customizable Badge: Customize the verified badge appearance to match your site's design and branding.
-Verification Logs: Keep track of profile verification activities through detailed logs and status updates.
-GDPR Compliant: The addon ensures data privacy and compliance with GDPR regulations.
-Installation
-Download the buddyboss-verification-addon.zip file from the BuddyBoss Addons Store.
-Log in to your BuddyBoss-powered site as an administrator.
-Go to Plugins > Add New.
-Click on the Upload Plugin button.
-Upload the buddyboss-verification-addon.zip file and click Install Now.
-Once installed, click Activate to activate the addon.
-Configuration
-Navigate to BuddyBoss > Verification in the WordPress admin dashboard.
-Enable the addon and configure the settings as per your requirements.
-Choose which user roles are eligible for verification.
-Set the verification method (manual or user-initiated).
-Customize the verified badge appearance (optional).
-Save your settings.
-User Guide
-Manual Verification
-As an admin, go to the user's profile you wish to verify.
-Click on the Verify button located next to the user's name.
-Verify the user's identity through the provided information or external verification methods.
-Once verified, click on the Mark as Verified button.
-User-initiated Verification
-Allow users to request verification by enabling the user-initiated verification method in the addon settings.
-Users can request verification from their profile settings page.
-Upon receiving a verification request, admins can review and verify the user's profile.
-Frequently Asked Questions (FAQ)
-How can I customize the verified badge appearance?
-You can customize the verified badge's appearance in the addon settings. You can change the badge's color, size, and position to match your site's design and branding.
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
 
-What user roles are eligible for verification?
-You can choose which user roles are eligible for verification from the addon settings. By default, all user roles are eligible, but you can customize this as needed.
+        section {
+            padding: 20px;
+        }
 
-Can I see verification logs and activities?
-Yes, the addon keeps detailed logs of all verification activities. You can access the verification logs from the addon settings.
-
-Support
-For any questions, issues, or support inquiries, please visit our support page.
-
-License
-The BuddyBoss Verification Addon is licensed under the GNU General Public License v2 or later.
-
-Credits
-This addon is brought to you by BuddyBoss, the leading platform for building social communities with WordPress.
-
-Thank you for choosing the BuddyBoss Verification Addon. We hope it enhances your BuddyBoss-powered site by adding a layer of credibility and trust to user profiles. If you have any feedback or suggestions, feel free to share them with us. Enjoy the power of profile verification!
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BuddyBoss Verification Addon</h1>
+    </header>
+    <section>
+        <h2>Features</h2>
+        <ul>
+            <li>Profile Verification: Enable profile verification for selected user roles to display a verified badge on their profiles.</li>
+            <li>Admin Control: Administrators can manually verify profiles or allow users to request verification.</li>
+            <li>Customizable Badge: Customize the verified badge appearance to match your site's design and branding.</li>
+            <li>Verification Logs: Keep track of profile verification activities through detailed logs and status updates.</li>
+            <li>GDPR Compliant: The addon ensures data privacy and compliance with GDPR regulations.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Installation</h2>
+        <ol>
+            <li>Download the <code>buddyboss-verification-addon.zip</code> file from the <a href="https://www.buddyboss.com/addons/verification-addon/">BuddyBoss Addons Store</a>.</li>
+            <li>Log in to your BuddyBoss-powered site as an administrator.</li>
+            <li>Go to <strong>Plugins</strong> &gt; <strong>Add New</strong>.</li>
+            <li>Click on the <strong>Upload Plugin</strong> button.</li>
+            <li>Upload the <code>buddyboss-verification-addon.zip</code> file and click <strong>Install Now</strong>.</li>
+            <li>Once installed, click <strong>Activate</strong> to activate the addon.</li>
+        </ol>
+    </section>
+    <section>
+        <h2>Configuration</h2>
+        <ol>
+            <li>Navigate to <strong>BuddyBoss</strong> &gt; <strong>Verification</strong> in the WordPress admin dashboard.</li>
+            <li>Enable the addon and configure the settings as per your requirements.</li>
+            <li>Choose which user roles are eligible for verification.</li>
+            <li>Set the verification method (manual or user-initiated).</li>
+            <li>Customize the verified badge appearance (optional).</li>
+            <li>Save your settings.</li>
+        </ol>
+    </section>
+    <!-- Add more sections for User Guide, FAQ, Support, License, Credits, etc. -->
+    <footer>
+        &copy; 2023 Your Company. All rights reserved.
+    </footer>
+</body>
+</html>
