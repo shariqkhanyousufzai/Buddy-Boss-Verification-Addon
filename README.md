@@ -1,4 +1,6 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<body>
     <header>
         <h1>BuddyBoss Verification Addon</h1>
     </header>
@@ -38,3 +40,5 @@
     <footer>
         &copy; 2023 Your Company. All rights reserved.
     </footer>
+</body>
+</html>
