@@ -1,38 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BuddyBoss Verification Addon</title>
-    <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
 
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-
-        section {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
     <header>
         <h1>BuddyBoss Verification Addon</h1>
     </header>
@@ -72,5 +38,3 @@
     <footer>
         &copy; 2023 Your Company. All rights reserved.
     </footer>
-</body>
-</html>
